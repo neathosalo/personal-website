@@ -113,7 +113,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right content - Portrait placeholder */}
+          {/* Right content - Portrait */}
           <div className="reveal opacity-0 stagger-2 hidden lg:flex justify-center items-center">
             <div className="relative">
               {/* Glow effect */}
@@ -121,14 +121,11 @@ export function Hero() {
               
               {/* Portrait container */}
               <div className="relative w-80 h-96 rounded-3xl overflow-hidden border border-border/50 glass-effect">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
-                      <span className="text-5xl font-serif text-primary">邢</span>
-                    </div>
-                    <p className="text-muted-foreground text-sm">专业形象照</p>
-                  </div>
-                </div>
+                <img 
+                  src="/profile.png" 
+                  alt="邢雷 - 数字化转型顾问"
+                  className="w-full h-full object-cover"
+                />
                 
                 {/* Decorative corner */}
                 <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-primary/50" />

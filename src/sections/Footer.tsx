@@ -120,7 +120,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-rose-500 fill-rose-500" /> by 邢雷 & 小T
+            Made with <Heart className="w-4 h-4 text-rose-500 fill-rose-500" /> by 老邢 & 小T
           </p>
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} All rights reserved.
