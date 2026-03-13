@@ -122,7 +122,7 @@ export function Hero() {
               {/* Portrait container */}
               <div className="relative w-80 h-96 rounded-3xl overflow-hidden border border-border/50 glass-effect">
                 <img 
-                  src="/profile.png" 
+                  src="https://neathosalo.github.io/personal-website/profile.png" 
                   alt="邢雷 - 数字化转型顾问"
                   className="w-full h-full object-cover"
                 />
