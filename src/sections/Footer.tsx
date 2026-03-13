@@ -1,8 +1,7 @@
 import { 
   Mail, 
   Linkedin, 
-  Github, 
-  Twitter,
+  Github,
   Heart,
   ArrowUp
 } from 'lucide-react';

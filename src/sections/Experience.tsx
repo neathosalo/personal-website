@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { 
   Briefcase, 
-  GraduationCap, 
   Award,
   TrendingUp
 } from 'lucide-react';

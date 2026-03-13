@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { 
   Mail, 
   Linkedin, 
-  Github, 
-  Twitter,
+  Github,
   MapPin,
   Send,
   Calendar,
