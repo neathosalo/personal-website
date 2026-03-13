@@ -120,16 +120,16 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl scale-110" />
               
               {/* Portrait container */}
-              <div className="relative w-80 h-96 rounded-3xl overflow-hidden border border-border/50 glass-effect">
+              <div className="relative w-80 h-[420px] rounded-3xl border border-border/50 glass-effect p-4">
                 <img 
                   src="https://neathosalo.github.io/personal-website/profile.png" 
                   alt="邢雷 - 数字化转型顾问"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain rounded-2xl"
                 />
                 
                 {/* Decorative corner */}
-                <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-primary/50" />
-                <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-primary/50" />
+                <div className="absolute top-6 right-6 w-8 h-8 border-t-2 border-r-2 border-primary/50" />
+                <div className="absolute bottom-6 left-6 w-8 h-8 border-b-2 border-l-2 border-primary/50" />
               </div>
               
               {/* Floating badges */}
