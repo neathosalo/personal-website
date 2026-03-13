@@ -114,7 +114,7 @@ export function Hero() {
           </div>
 
           {/* Right content - Portrait */}
-          <div className="reveal opacity-0 stagger-2 hidden lg:flex justify-center items-center">
+          <div className="reveal stagger-2 hidden lg:flex justify-center items-center">
             <div className="relative">
               {/* Glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl blur-2xl scale-110" />
